@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+</head>
+<body>
+    <script>
+        var x = prompt("Введіть число");
+        if (x == 0) {
+            res = 'нульове число';
+            alert(res);
+        } else if ((x > 0) && (x % 2 == 0)) {
+            res = 'додатне парне число';
+            alert(res);
+        } else if ((x > 0) && (x % 2 !== 0)) {
+            res = 'додатне непарне число';
+            alert(res);
+        } else if ((x < 0) && (x % 2 == 0)) {
+            res = 'від’ємне парне число';
+            alert(res);
+        } else {
+            res = 'від’ємне непарне число';
+            alert(res);
+        }
+    </script>
+</body>
+</html>
